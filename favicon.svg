@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="wgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".4" stop-color="#ece9e2"/>
+      <stop offset=".7" stop-color="#d4d0c6"/>
+      <stop offset="1" stop-color="#bdb8aa"/>
+    </linearGradient>
+    <linearGradient id="wgB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf8f3"/>
+      <stop offset=".45" stop-color="#e0dccf"/>
+      <stop offset="1" stop-color="#b4af9f"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(-10 32 32)" fill="none" stroke-linecap="round">
+    <!-- праве кільце -->
+    <circle cx="40" cy="34" r="13" stroke="url(#wgB)" stroke-width="4.6"/>
+    <!-- ліве кільце (зверху) -->
+    <circle cx="24" cy="34" r="13" stroke="url(#wgA)" stroke-width="4.6"/>
+    <!-- металеві відблиски -->
+    <path d="M15 30 A13 13 0 0 1 21 22.5" stroke="#ffffff" stroke-width="1.7" opacity=".85"/>
+    <path d="M31 30 A13 13 0 0 1 37 22.5" stroke="#ffffff" stroke-width="1.4" opacity=".6"/>
+  </g>
+</svg>
